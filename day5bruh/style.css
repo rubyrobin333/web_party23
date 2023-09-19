@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+.cat{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 50% 50%;
+    z-index: -1;
+}
+
+.hello{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 10vw;
+    border: 10px dotted brown;
+    border-radius: 100px;
+    text-shadow: 7px 10px 7px black;
+
+    
+}
+
+
+.thumbs{
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+   
+    
+}
+
+.corner-message{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url("rotstar2_e0.gif");
+    color: black;
+    padding: 2em;
+    font-size: 2rem;
+    box-shadow: -20px 20px 10px;
+}
