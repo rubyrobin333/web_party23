@@ -1,0 +1,49 @@
+html  {
+    background-image: url(cityscape.gif);
+    font-family: 'DotGothic16', sans-serif;
+font-family: 'Handjet', cursive;
+font-size: medium;
+}
+
+#container1{
+
+border: yellow 7px groove;
+height: 500px;
+width: 500px;
+margin: auto;
+padding: 3em;
+background-image: url(pbrick.jpeg);
+font-size: larger;
+
+}
+
+
+#one{
+  background-image: url(blobsflower.gif);
+  background-repeat: no-repeat;
+  margin-left: auto;
+  padding: 3rem;
+
+}
+
+
+#two{
+  color: black;
+  border: pink 5px solid;
+  margin-top: 5em;
+  background-color: aliceblue;
+}
+
+
+body{
+
+  margin: 0;
+}
+
+#welcome{
+margin-left: 9rem;
+}
+
+#bottom{
+  margin-bottom: 9em;
+}
