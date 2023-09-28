@@ -1,0 +1,79 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+body{
+    font-family: monospace;
+}
+
+.box{
+    background-color: darkseagreen;
+    width: 5rem;
+    height: 5rem;
+    margin: 0.5rem;
+    display: grid;
+    place-items: center;
+}
+
+.absolute{
+    background-color: darkmagenta;
+    position: absolute;
+    right: 20px;
+    top: 200px;
+}
+
+.fixed{
+    position: fixed;
+    background-color: coral;
+    right: 0px;
+    bottom: 300px;
+
+}
+
+.relative{
+    position: relative;
+    background-color: crimson;
+    color: aliceblue;
+    left: 100px;
+    top: 30px;
+    width: 19rem;
+    height: 7rem;
+    display: block;
+    
+}
+
+.child{
+    width: 20%;
+    height: 50%;
+    margin: 0;
+   
+}
+
+.sticky{
+    background-color: slategrey;
+    right: 50%;
+    color: white;
+}
+
+.rectangle{
+    position: fixed;
+    background-color: antiquewhite;
+    left: 300px;
+    bottom: 300px;
+    width: 18rem;
+    height: 6rem;
+
+}
+
+.close-box{
+color: white;
+background-color: red;
+line-height: 0.5;
+margin: 0;
+position: absolute;
+right: 0;
+padding: .5rem;
+}
+

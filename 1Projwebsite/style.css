@@ -1,49 +1,63 @@
-html  {
-    background-image: url(cityscape.gif);
-    font-family: 'DotGothic16', sans-serif;
-font-family: 'Handjet', cursive;
-font-size: medium;
+html {
+  background-image: url(fallinghearts9tr.gif);
+  font-family: 'DotGothic16', sans-serif;
+  font-family: 'Handjet', cursive;
+  font-size: medium;
 }
 
-#container1{
+#container1 {
 
-border: yellow 7px groove;
-height: 500px;
-width: 500px;
-margin: auto;
-padding: 3em;
-background-image: url(pbrick.jpeg);
-font-size: larger;
+  border: yellow 7px groove;
+  padding: 3em;
+  background-image: url(pbrick.jpeg);
+  font-size: larger;
+  font-weight: bold;
+
 
 }
 
 
-#one{
+#one {
   background-image: url(blobsflower.gif);
   background-repeat: no-repeat;
-  margin-left: auto;
   padding: 3rem;
 
 }
 
 
-#two{
+#two {
   color: black;
   border: pink 5px solid;
-  margin-top: 5em;
   background-color: aliceblue;
+  position: absolute;
+
 }
 
 
-body{
-
-  margin: 0;
+#welcome {
+  position: absolute;
+  right: 3rem;
+  top: 2em;
 }
 
-#welcome{
-margin-left: 9rem;
+#footer {
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
 }
 
-#bottom{
-  margin-bottom: 9em;
+
+
+#drakeee {
+  position: relative;
+  top: 200px;
+}
+
+
+#angel {
+  position: absolute;
+  right: 200px;
+
 }
