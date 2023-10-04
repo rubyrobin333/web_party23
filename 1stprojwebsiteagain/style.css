@@ -1,0 +1,164 @@
+:root {
+    --content: #ffffff;
+}
+
+
+
+body {
+    margin: 0;
+    background-color: pink;
+    background-size: 65px;
+    color: rgb(222, 127, 142);
+    background-image: url(fallinghearts9tr.gif);
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    max-width: 900px;
+   
+    margin: 0 auto;
+   
+}
+
+#container a {
+    color: blue;
+    font-weight: bold;
+}
+
+drake{
+    height: 100%;
+    width: 100%;
+}
+
+#header {
+    width: 100%;
+    background-color: whitesmoke;
+    height: 150px;
+    background-image: url(nananaaaaa.jpeg);
+    background-size: 100%;
+}
+
+
+#navbar {
+    height: 40px;
+    background-color: beige;
+   
+    width: 100%;
+}
+
+#navbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+#navbar li {
+    padding-top: 10px;
+}
+
+
+#navbar li a {
+    color: black;
+   
+    font-weight: 800;
+    text-decoration: none;
+    /
+}
+
+
+#navbar li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#flex {
+    display: flex;
+}
+
+
+aside {
+    background-color: beige;
+    width: 200px;
+    padding: 20px;
+    font-size: smaller;
+  
+}
+
+
+
+main {
+    background-color: beige;
+    flex: 1;
+    padding: 20px;
+    order: 2;
+}
+
+
+
+*/ #leftSidebar {
+    order: 1;
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(222, 127, 142);
+}
+
+h1 {
+    font-size: 25px;
+}
+
+strong {
+    /* this styles bold text */
+    color: black;
+}
+
+.box {
+    background-color: aliceblue;
+    border: 1px solid #ED64F5;
+    padding: 10px;
+}
+
+
+#topBar {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    font-size: smaller;
+    background-color: #13092D;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    #flex {
+        flex-wrap: wrap;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    main {
+        order: 1;
+    }
+
+    #leftSidebar {
+        order: 2;
+    }
+
+    #rightSidebar {
+        order: 3;
+    }
+
+    #navbar ul {
+        flex-wrap: wrap;
+    }
+}
