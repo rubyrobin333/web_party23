@@ -1,0 +1,9 @@
+.webring{
+    border: 4px orange;
+    padding: 10px;
+}
+
+.webring a {
+    margin-right: 1rem;
+    
+}
