@@ -1,0 +1,9 @@
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+body, a, a:default {cursor: url('https://web.archive.org/web/20091027000754/http://ca.geocities.com/blogaparecium/smilies/bomb.gif'), auto;}
+              
