@@ -7,7 +7,6 @@
 
 header {
     padding: 1rem;
-    border: .5rem solid green;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,7 +43,7 @@ background-color: white;
 
 /* main block */
 
-main{
+main {
     max-width: 4Orem;
     margin: 5rem auto;
 
@@ -63,14 +62,13 @@ display: block;
 
 
 .gallery {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
+display: grid;
+/* grid-template-columns: 1fr 1fr 1fr; */
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .gallery img {
-width: min(300px, 100%);
-flex-grow: 1;
+    width: 100%;
 
 }
 
